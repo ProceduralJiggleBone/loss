@@ -1,0 +1,8 @@
+[package]
+name = "loss"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+image = "0.25.9"
+kiddo = "5.2.4"
