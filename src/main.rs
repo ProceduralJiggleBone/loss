@@ -6,7 +6,7 @@ use kiddo::NearestNeighbour;
 use image::ImageReader;
 
 fn main() {
-    let subject = image::open("/home/raspberrypi/1280px-Orange_tabby_cat_sitting_on_fallen_leaves-Hisashi-01A.jpg").expect("Subject not found!");
+    let subject = image::open("testimage.jpg").expect("Subject not found!");
 
     let loss = image::open("cad-20080602-358b1.x79890.jpg").expect("Loss not found!");
     
